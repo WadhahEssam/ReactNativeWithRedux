@@ -12,7 +12,7 @@ class App extends Component {
       <Provider store={createStore(reducers)} >
         <View>
           <Header label={'Libraries'} />
-          <LibraryList style={{ flex: 1 }} />
+          <LibraryList />
         </View>
       </Provider>
     );
