@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Text, TouchableHighlight, View } from 'react-native';
+import { Text, TouchableHighlight, View, } from 'react-native';
 import { connect } from 'react-redux';
 import * as actions from '../actions/index';
 
 class LibraryItem extends Component {
+
   render() {
     return (
       <View style={styles.libraryItemView}>
@@ -26,11 +27,11 @@ class LibraryItem extends Component {
           :
           <View />
         }
-
       </View>
     );
   }
 }
+
 
 const styles = {
   libraryItemView: {
